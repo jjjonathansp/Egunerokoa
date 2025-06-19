@@ -32,20 +32,22 @@ Egunerokoa es una aplicación web desarrollada en React para la gestión de diar
    npm install
    ```
 
-3. Configura las variables de entorno si es necesario (por ejemplo, para Firebase):
+3. Configura las variables de entorno si es necesario:
 
    ```bash
-   cp .env.example .env
+   Fichero: .env
    # Edita el archivo .env con tus credenciales
+   VITE_SUPABASE_URL=<tu_supabase_url>
+   VITE_SUPABASE_ANON_KEY=<tu_supabase_anon_key>
    ```
 
 4. Inicia la aplicación en modo desarrollo:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-   La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
+   La aplicación estará disponible en [http://localhost:5173/](http://localhost:5173).
 
 ## Migraciones de Supabase
 
