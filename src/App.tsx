@@ -69,17 +69,16 @@ function App() {
           <div className="text-center max-w-md bg-gray-800 rounded-xl shadow-lg p-8 border border-gray-700">
             <FileText className="w-20 h-20 text-gray-700 mx-auto mb-6" />
             <h2 className="text-2xl font-bold text-gray-100 mb-3">
-              Welcome to Your Personal Diary
+              Ongietorri zure eguneroko webgunera!
             </h2>
             <p className="text-gray-400 mb-6">
-              Create your first diary to start writing your thoughts, memories, and experiences. 
-              Each diary can contain multiple entries with rich text and images.
+              Sortu ezazu zure egunerokoa eta hasi zure bizitzako une garrantzitsuenak isladatzen.
             </p>
             <button
               onClick={() => setShowDiaryForm(true)}
               className="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-yellow-300 transition-all duration-200"
             >
-              Create Your First Diary
+              Sortu eguneroko berria
             </button>
           </div>
         </div>
